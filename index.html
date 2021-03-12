@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+      <div class="content-width">
+        <h3>リアルタイムフィルター</h3>
+        <h4>入力をした文字を含まない要素は非表示になります</h4>
+        <input type="text" id="inputText" class="inputText">
+        <div class="mainContent" id="mainContent">
+          <div class="mainPhoto" id="mainPhoto_0">
+            <img class="photo" src="https://i.pinimg.com/originals/01/a8/24/01a8245e365deef832ce9580c1ba9298.jpg">
+            <p class="keyword">キーワード</p>
+            <div class="photoKeyword">
+              <p class="keyword">車</p>
+              <p class="keyword">くるま</p>
+              <p class="keyword">kuruma</p>
+            </div>
+          </div>
+          <div class="mainPhoto" id="mainPhoto_1">
+            <img class="photo" src="https://www.pakutaso.com/shared/img/thumb/N749_sugasugasiiaozora_TP_V.jpg">
+            <p class="keyword">キーワード</p>
+            <div class="photoKeyword">
+              <p class="keyword">青空</p>
+              <p class="keyword">あおぞら</p>
+              <p class="keyword">aozora</p>
+            </div>
+          </div>
+        </div>
+        <div class="mainContent">
+          <div class="mainPhoto" id="mainPhoto_2">
+            <img class="photo" src="https://storage.tenki.jp/storage/static-images/suppl/article/image/1/14/141/14131/1/large.jpg">
+            <p class="keyword">キーワード</p>
+            <div class="photoKeyword">
+              <p class="keyword">朝顔</p>
+              <p class="keyword">あさがお</p>
+              <p class="keyword">asagao</p>
+            </div>
+          </div>
+          <div class="mainPhoto" id="mainPhoto_3">
+            <img class="photo" src="https://draftworks.info/wp-content/uploads/2020/01/%E9%A6%AC_1580433058.jpg">
+            <p class="keyword">キーワード</p>
+            <div class="photoKeyword">
+              <p class="keyword">馬</p>
+              <p class="keyword">うま</p>
+              <p class="keyword">uma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>
